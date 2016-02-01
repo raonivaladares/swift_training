@@ -16,6 +16,7 @@
 		D1D152C81C2C28C70024825D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D152C71C2C28C70024825D /* Assets.xcassets */; };
 		D1D152CB1C2C28C70024825D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D152C91C2C28C70024825D /* LaunchScreen.storyboard */; };
 		D1D152D61C2C28C70024825D /* FoodTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D152D51C2C28C70024825D /* FoodTrackTests.swift */; };
+		D1E304B81C6005B700313669 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E304B71C6005B700313669 /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		D1D152D11C2C28C70024825D /* FoodTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D152D51C2C28C70024825D /* FoodTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackTests.swift; sourceTree = "<group>"; };
 		D1D152D71C2C28C70024825D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E304B71C6005B700313669 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				D1D152C91C2C28C70024825D /* LaunchScreen.storyboard */,
 				D1D152CC1C2C28C70024825D /* Info.plist */,
 				D19631F51C5F9F6E00BD6F57 /* Meal.swift */,
+				D1E304B71C6005B700313669 /* MealTableViewCell.swift */,
 			);
 			path = FoodTrack;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				D1D152C31C2C28C70024825D /* ViewController.swift in Sources */,
 				D1B33F131C315C22007C8698 /* RatingControl.swift in Sources */,
 				D1D152C11C2C28C70024825D /* AppDelegate.swift in Sources */,
+				D1E304B81C6005B700313669 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
